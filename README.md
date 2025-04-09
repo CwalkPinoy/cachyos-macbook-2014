@@ -9,6 +9,8 @@ cd yay
 
 makepkg -si
 
-yay -S broadcom-wl
+yay -S broadcom-wl-dkms
 
 sudo reboot
+
+also works with pacman
